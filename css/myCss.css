@@ -1,0 +1,209 @@
+.margin-t-10px {
+    margin-top: 10px;
+}
+
+.margin-r-10px {
+    margin-right: 10px;
+}
+
+.margin-b-10px {
+    margin-bottom: 10px;
+
+}
+
+.margin-l-10px {
+    margin-left: 10px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    padding-top: 40px;
+    background-color: #c2c5cc;
+    text-align: center!important;
+}
+
+.todo-list {
+    width: 100%;
+    max-width: 760px;
+    padding: 15px;
+    margin: auto;
+}
+
+.title-todo {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    float: left;
+}
+
+.img-todo {
+    float: right;
+    height: 30px;
+    width: 30px;
+    margin-right: 12px;
+}
+
+.todo-form {
+    display: inline-block;
+    width: 100%;
+}
+
+.todo-input {
+    width: 85%;
+    height: 35px;
+    padding: 6px 10px;
+    font-size: 16px;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px 0 0 0;
+    outline: none;
+    float: left;
+}
+
+.add-todo {
+    width: 15%;
+    padding: 7.5px 16px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #3f72c5;
+    border: 0;
+    border-radius: 0 10px 0 0;
+    float: right;
+    outline: none;
+}
+
+.showHere {
+    width: 100%;
+    padding: 0;
+    text-align: left;
+    font-size: 20px;
+    float: left;
+    text-transform: capitalize;
+}
+
+.showHere li:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.showHere li:last-child {
+    border-bottom-left-radius: 10px;
+}
+
+.showHere li:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+
+.liToDoClass {
+    padding-left: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #cecece;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 21px;
+}
+
+/* ########## CHECK BUTTON ####### */
+
+.checkClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    cursor: pointer;
+    height: 100%;
+    width: 4%;
+    color: green;
+}
+
+.checkStatus {
+    list-style: none;
+    padding-left: 10px;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: line-through;
+    background-color: #3dae3a !important;
+    transition: 1s;
+}
+
+.checkStatus:nth-child(odd) {
+    background-color: #68ca66 !important;
+}
+
+.checkClass:hover {
+    background-color: white;
+    transition: 0.5s;
+}
+
+/* ########## EDIT BUTTON ####### */
+
+.editClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 100%;
+    width: 4%;
+    color: black;
+}
+
+.editClass:hover {
+    background-color: white;
+    transition: 0.5s;
+}
+
+/* ########## DELETE BUTTON ####### */
+
+.deleteClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 100%;
+    width: 4%;
+    color: red;
+    font-size: 31px;
+}
+
+.deleteClass:hover {
+    background-color: white;
+    transition: 0.5s;
+}
+
+/* ########### EDIT FIELD ##########*/
+
+.afterEditClass {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 100%;
+    width: 4%;
+    color: black;
+    font-size: 19px;
+}
+
+/* ########### EDIT FIELD ##########*/
+
+.editField {
+    display: none;
+    width: 88%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:1px solid black;
+    background-color: transparent;
+    outline: none;
+    text-transform: capitalize;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 21px;
+    padding: 0;
+}

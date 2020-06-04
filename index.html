@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/myCss.css">
+    <link rel="stylesheet" href="css/defCss.css">
+    <script src="script/myScript.js"></script>
+    <script src="script/windowOnload.js"></script>
+</head>
+
+<body>
+
+    <div class="todo-list">
+
+        <h1 class="title-todo margin-b-10px margin-l-10px">My to do list</h1>
+        <img src="images/check.png" alt="check" class="img-todo margin-r-10px">
+
+        <form autocomplete="off" class="todo-form margin-b-10px">
+            <input type="text" id="inputToDo" class="todo-input" required placeholder="To do.">
+            <button class="add-todo" onclick="addToDoItem()">Add</button>
+        </form>
+
+        <ul class="showHere" id="showHere">
+
+            <li>
+                <p>test 1</p>  
+                <input type="text" class="editField" id="editField">
+            </li>
+
+
+            <li>
+                <p>test 2</p> 
+                <input type="text" class="editField">
+            </li>
+
+
+            <li>
+                <p>test 3</p>
+                <input type="text" class="editField" id="editField">
+            </li>
+
+            <li>
+                <p>test 4</p>
+                <input type="text" class="editField" id="editField">
+            </li>
+
+            <li>
+                <p>test 5</p>
+                <input type="text" class="editField" id="editField">
+            </li>
+        </ul>
+    </div>
+    
+
+</body>
+
+</html>
