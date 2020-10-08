@@ -146,3 +146,11 @@ function addToDoItem() {
         }
     }
 }
+
+window.onoffline = (event) => {
+    alert("Connection Lost.");
+}
+
+window.ononline = (event) => {
+    alert("Back online!");
+}
